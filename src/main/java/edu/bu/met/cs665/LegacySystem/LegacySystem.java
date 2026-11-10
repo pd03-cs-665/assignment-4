@@ -3,8 +3,16 @@ package edu.bu.met.cs665.LegacySystem;
 import edu.bu.met.cs665.Customer;
 
 public class LegacySystem implements CustomerDataViaUsb{
+
+    private int printCallCount = 0;
+
+    public int getPrintCallCount() {
+        return printCallCount;
+    }
+
     @Override
     public void printCustomer(int customerId) {
+        printCallCount++;
         Customer customer = getCustomerViaUsb(customerId);
         System.out.println("Printing customer data via USB...");
         System.out.println(customer);
