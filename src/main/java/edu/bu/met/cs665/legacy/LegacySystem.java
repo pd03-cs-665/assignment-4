@@ -1,8 +1,8 @@
-package edu.bu.met.cs665.LegacySystem;
+package edu.bu.met.cs665.legacy;
 
 import edu.bu.met.cs665.Customer;
 
-public class LegacySystem implements CustomerDataViaUsb{
+public class LegacySystem implements CustomerDataViaUsb {
 
     private int printCallCount = 0;
 

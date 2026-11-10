@@ -6,8 +6,8 @@ import static org.junit.Assert.assertNotNull;
 import org.junit.Before;
 import org.junit.Test;
 
-import edu.bu.met.cs665.LegacySystem.LegacySystem;
-import edu.bu.met.cs665.ModernSystem.CustomerDataAdapter;
+import edu.bu.met.cs665.legacy.LegacySystem;
+import edu.bu.met.cs665.modern.CustomerDataAdapter;
 
 public class CustomerDataAdapterTest {
     public LegacySystem legacySystem;

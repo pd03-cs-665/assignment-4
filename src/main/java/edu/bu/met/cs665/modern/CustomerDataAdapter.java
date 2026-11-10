@@ -1,7 +1,7 @@
-package edu.bu.met.cs665.ModernSystem;
+package edu.bu.met.cs665.modern;
 
 import edu.bu.met.cs665.Customer;
-import edu.bu.met.cs665.LegacySystem.CustomerDataViaUsb;
+import edu.bu.met.cs665.legacy.CustomerDataViaUsb;
 
 public class CustomerDataAdapter implements CustomerDataViaHttps {
     private CustomerDataViaUsb usbCustomerData;

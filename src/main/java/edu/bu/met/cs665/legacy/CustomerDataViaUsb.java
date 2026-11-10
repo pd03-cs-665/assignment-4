@@ -1,8 +1,9 @@
-package edu.bu.met.cs665.LegacySystem;
+package edu.bu.met.cs665.legacy;
 
 import edu.bu.met.cs665.Customer;
 
 public interface CustomerDataViaUsb {
     void printCustomer(int customerId);
+
     Customer getCustomerViaUsb(int customerId);
 }

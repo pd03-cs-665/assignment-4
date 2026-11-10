@@ -1,4 +1,4 @@
-package edu.bu.met.cs665.ModernSystem;
+package edu.bu.met.cs665.modern;
 
 import edu.bu.met.cs665.Customer;
 
