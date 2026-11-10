@@ -11,7 +11,6 @@ package edu.bu.met.cs665.legacy;
 import edu.bu.met.cs665.Customer;
 
 public interface CustomerDataViaUsb {
-
     /**
      * Method to print customer ID.
      * @param customerId Customer ID to print.
